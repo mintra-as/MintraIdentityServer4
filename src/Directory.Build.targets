@@ -44,7 +44,9 @@
     
     <!--misc -->
     <PackageReference Update="Microsoft.IdentityModel.Protocols.OpenIdConnect" Version="5.5.0" />
-    <PackageReference Update="AutoMapper" Version="[9.0.0,10.0)" />
+
+    <!-- IMPORTANT - this version needs to match the AutoMapper version enforced by Elsa -->
+    <PackageReference Update="AutoMapper" Version="11.0.1" />
     
     <!--microsoft asp.net core -->
     <PackageReference Update="Microsoft.AspNetCore.Authentication.OpenIdConnect" Version="$(FrameworkVersion)" />
